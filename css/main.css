@@ -50,11 +50,11 @@
 }
 .home {
   height: 100vh;
-  background-image: url("../image/portofolio1.jpg");
-  padding-top: 15%;
+  background-image: url("../image/portofoloio6.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  padding-top: 15%;
 }
 .home-desc {
   margin-left: 12%;
@@ -80,13 +80,13 @@
   font-weight: bold;
 }
 .about {
-  height: 100vh;
+  height: 80vh;
   padding-top: 5%;
 }
 .text-about {
   text-align: center;
   text-transform: capitalize;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
@@ -116,7 +116,7 @@
   text-transform: capitalize;
 }
 .service {
-  height: 100vh;
+  height: 60vh;
   background-color: beige;
 }
 .service-container {
@@ -133,11 +133,12 @@
   height: 100px;
 }
 .service-content p {
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .text-center h1 {
-  font-size: 22px;
+  font-size: 20px;
   text-transform: capitalize;
 }
 .skills {
@@ -205,9 +206,8 @@
 }
 .contac-desc span {
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .form-message input {
   width: 250px;
@@ -263,5 +263,75 @@
   }
   .contact {
     height: 100vh;
+  }
+}
+.content-mount {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-mount h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  color: white;
+}
+.content-mount h1 span.typed-text {
+  color: #d2b94b;
+}
+
+/*Cursor blinking CSS Starts...*/
+.blinking-cursor {
+  font-size: 6rem;
+  color: #2c3e50;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-ms-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-o-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
   }
 }
